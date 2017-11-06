@@ -1,24 +1,17 @@
 import React, { Component } from 'react';
-import logo from './logo-v1.svg';
 import './App.css';
+
+import TopBar from './common/TopBar';
+import ToDoList from './todo_list/ToDoList';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <Header />
+        <TopBar />
+        <ToDoList />
       </div>
     );
-  }
-}
-
-class Header extends Component {
-  render() {
-    return (
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-      </header>
-    )
   }
 }
 

@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  color: #546C72;
 }
 
 .App-logo {
@@ -7,8 +7,8 @@
 }
 
 .App-header {
-  height: 80px;
   padding: 20px;
+  text-align: center;
 }
 
 .App-title {
@@ -17,4 +17,49 @@
 
 .App-intro {
   font-size: large;
+}
+
+.ToDoList-container {
+  margin: 0 auto;
+  max-width: 500px;
+}
+
+.ToDoList-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ToDoList-header h1 {
+  margin: 0px;
+  margin-top: 6px;
+}
+
+.AddToDo-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.AddToDo-input {
+  margin-right: 16px;
+  padding: 4px 8px;
+  height: 32px;
+  width: 200px;
+  font-size: 12px;
+  border-radius: 3px;
+  border: 1px solid #546C72;
+  outline: none;
+}
+
+.AddToDo-button {
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
