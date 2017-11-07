@@ -44,10 +44,11 @@
 
 .AddToDo-input {
   margin-right: 16px;
-  padding: 4px 8px;
+  padding: 4px 8px 4px;
   height: 32px;
   width: 200px;
-  font-size: 12px;
+  font-size: 14px;
+  line-height: 14px;
   border-radius: 3px;
   border: 1px solid #546C72;
   outline: none;
