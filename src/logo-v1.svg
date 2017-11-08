@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="62px" height="67px" viewBox="0 0 62 67" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>logo-v1</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Onboarding" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Welcome" transform="translate(-481.000000, -33.000000)" fill="#F3F3F3">
+            <g id="logo-v1" transform="translate(481.000000, 20.000000)">
+                <rect id="Rectangle" x="0.689655172" y="71.0344828" width="60.6896552" height="8.96551724"></rect>
+                <polygon id="Combined-Shape" transform="translate(31.034483, 33.793103) rotate(-53.000000) translate(-31.034483, -33.793103) " points="9.65699208 40.0217786 61.3793103 40.0217786 61.3793103 48.9655172 0.689655172 48.9655172 0.689655172 18.6206897 9.65699208 18.6206897"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

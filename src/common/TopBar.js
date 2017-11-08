@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../logo.svg';
+import logo from '../logo-v1.svg';
 
 const TopBar = () => (
   <header className="App-header">
