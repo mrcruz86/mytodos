@@ -15,7 +15,6 @@ import ToDoList from './todo_list/ToDoList';
 const App = () => (
   <Router>
     <div className="App">
-      <TopBar />
       <Switch>
         <Route exact path="/" component={Landing} />
         <Route path="/welcome" component={Onboarding} />

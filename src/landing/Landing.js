@@ -12,12 +12,19 @@ class Landing extends Component {
     }
 
     return (
-      <div className="centered">
-        <h1>Welcome</h1>
-        <p>Let's setup your ToDo list.</p>
-        <Link to="/welcome">
-          Get Started
-        </Link>
+      <div className="Landing Onboarding-grid">
+        <div className="Landing-header">
+          <h1>Welcome!</h1>
+        </div>
+        <div className="Landing-msg">
+          <p>Let's setup your ToDo list.</p>
+        </div>
+        <div className="Landing-start">
+          <Link to="/welcome">
+            Get Started
+          </Link>
+        </div>
+
       </div>
     );
   }

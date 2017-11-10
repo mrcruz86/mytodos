@@ -5,8 +5,12 @@
   align-items: center;
 }
 
+/* App Styles */
+
 .App {
   color: #546C72;
+  padding: 80px;
+  height: 100vh;
 }
 
 .App-logo {
@@ -25,6 +29,77 @@
 .App-intro {
   font-size: large;
 }
+
+/* Onboarding Styles */
+
+.Onboarding-grid {
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-row-gap: 40px;
+}
+
+/* Landing Styles */
+
+.Landing-header {
+  position: relative;
+  grid-row: 1;
+  grid-column: 2;
+  display: flex;
+  align-items: flex-end;
+}
+
+.Landing-header h1 {
+  margin: 0px;
+  font-size: 24px;
+  font-weight: 700;
+  color: #FFC421;
+  text-transform: uppercase;
+}
+
+.Landing-msg {
+  position: relative;
+  grid-row: 2;
+  grid-column: 2 / 4;
+}
+
+.Landing-msg p {
+  margin: 0px;
+  max-width: 560px;
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 90px;
+  color: #9296A0;
+}
+
+.Landing-start {
+  position: relative;
+  grid-row: 3;
+  grid-column: 2;
+}
+
+.Landing-start a {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  min-width: 100%;
+  color: #15D5EE;
+  font-weight: 500;
+  font-size: 36px;
+  text-decoration: none;
+  text-align: center;
+  padding: 20px 40px;
+  border: 3px solid #15D5EE;
+  transition: color 0.2s ease-in-out;
+}
+
+.Landing-start a:hover {
+  color: #fff;
+  background-color: #15D5EE;
+}
+
+/* ToDo List Styles */
 
 .ToDoList-container {
   margin: 0 auto;
